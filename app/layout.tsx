@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { poppins } from "@/utils/font";
 
 export const metadata: Metadata = {
   title: "IEDC CCEIJK - Beyond Boundaries",
+  description: "IEDC CCEIJK - Beyond Boundaries, website for the IEDC CCEIJK",
 };
 
 export default function RootLayout({
@@ -18,7 +17,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/icons/logo.webp" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }

@@ -1,13 +1,13 @@
 import Navbar from '@/components/Navbar'
+import Image from 'next/image'
 import React from 'react'
 
 const Nisp = () => {
   return (
-    <section>
+    <section className='w-full h-screen'>
     <Navbar/>
-    <h1 className='text-blue-800 font-bold text-xl mt-[15%] text-center'>
-    Welcome to NISP page 👋
-    </h1>
+    <Image src='/images/startup.jpeg' alt='img' width={1800} height={100} className='w-full' />
+    <h1 className='absolute top-[40%] left-[10%] text-6xl w-[80%] text-center font-bold leading-[4.5rem] text-white'>NATIONAL INNOVATION AND STARTUP POLICY</h1>
     </section>
   )
 }

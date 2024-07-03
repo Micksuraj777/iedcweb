@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <section className="flex w-full justify-between p-3 text-gray-500">
+    <section className="flex w-full justify-between p-3 text-gray-500 bg-transparent z-10 absolute top-0">
       <div className="flex flex-1 gap-6 justify-center">
         <span className='pr-10 flex'>
         <Image src='/icons/logo.webp' width={50} height={50} alt='logo' />

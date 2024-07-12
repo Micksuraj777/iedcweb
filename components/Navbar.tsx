@@ -49,7 +49,7 @@ const Navbar = () => {
 
   return (
     <header className="p-3">
-      <div className="flex gap-6 justify-between w-full max-w-[1500px] m-auto lg:justify-evenly">
+      <div className="flex gap-6 justify-between w-full max-w-[1500px] m-auto lg:justify-evenly ">
         <div className="flex">
           <Image
             src="/icons/logo.webp"

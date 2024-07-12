@@ -1,12 +1,14 @@
-import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import React, { ReactNode } from "react";
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <>
-      <Navbar />
+    <div className="min-h-screen">
+      <Header />
       <main>{children}</main>
-    </>
+      <Footer maintainerName="Mick Suraj" />
+    </div>
   );
 };
 

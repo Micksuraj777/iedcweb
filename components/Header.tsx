@@ -2,14 +2,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { navbarLinks } from "@/constants";
+import { navbarLinks } from "@/libs/constants";
 import { cn } from "@/libs/utilis";
 import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import { useState } from "react";
 
-const Navbar = () => {
+const Header = () => {
   const pathname = usePathname();
   const [hamburgerMenuVisible, setHamburgerMenuVisible] = useState(false);
 
@@ -49,7 +49,7 @@ const Navbar = () => {
 
   return (
     <header className="p-3">
-      <div className="flex gap-6 justify-between w-full max-w-[1500px] m-auto lg:justify-evenly">
+      <div className="flex gap-6 justify-between w-full max-w-[1500px] m-auto">
         <div className="flex">
           <Image
             src="/icons/logo.webp"
@@ -84,4 +84,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

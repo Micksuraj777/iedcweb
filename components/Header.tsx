@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { navbarLinks } from "@/libs/constants";
+import { navbarLinks } from "@/libs/constant/navbar.constant";
 import { cn } from "@/libs/utilis";
 import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -38,7 +38,7 @@ const Header = () => {
     });
 
   const hamburgerMenu = () => (
-    <ul className="flex flex-col gap-2 fixed w-fit p-2 right-3 top-16 rounded-md bg-white border border-gray-200 ">
+    <ul className="flex flex-col gap-2 fixed w-fit p-2 right-3 top-16 rounded-md bg-white border border-gray-200 z-50">
       {renderNavbarLinks()}
     </ul>
   );

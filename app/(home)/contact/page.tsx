@@ -1,11 +1,10 @@
+import PageHero from "@/components/shared/PageHero";
 import React from "react";
 
 const Contact = () => {
   return (
     <section>
-      <h1 className="text-blue-800 font-bold text-xl mt-[15%] text-center">
-        Welcome to Contact page 👋
-      </h1>
+      <PageHero pageHeroTitle="Contact Us" />
     </section>
   );
 };

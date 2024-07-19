@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { poppins } from "@/utils/font";
+import "./globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const metadata: Metadata = {
   title: "IEDC CCEIJK - Beyond Boundaries",

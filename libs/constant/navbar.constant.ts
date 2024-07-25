@@ -1,7 +1,7 @@
 export const navbarLinks = [
   {
-    label: "Home",
-    route: "/",
+    label: "Team",
+    route: "/team",
   },
   {
     label: "Activities",

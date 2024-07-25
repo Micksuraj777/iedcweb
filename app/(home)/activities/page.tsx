@@ -4,7 +4,7 @@ import React from "react";
 const Activities = () => {
   return (
     <section className="px-3">
-      <PageHero pageHeroTitle="Activities"/>
+      <PageHero pageHeroTitle="Activities & Events" />
     </section>
   );
 };

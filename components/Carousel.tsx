@@ -7,42 +7,16 @@ import Slider, { Settings } from "react-slick";
 
 export default function Carousel() {
   var settings: Settings = {
-    dots: false,
+    dots: true,
     swipeToSlide: true,
     infinite: true,
     speed: 2000,
     fade: true,
     autoplay: true,
-    lazyLoad: "progressive",
+    lazyLoad: "ondemand",
     autoplaySpeed: 3000,
     initialSlide: 0,
     waitForAnimate: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
   };
   return (
     <div className="slider-container">

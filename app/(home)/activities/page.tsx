@@ -1,11 +1,10 @@
+import PageHero from "@/components/shared/PageHero";
 import React from "react";
 
 const Activities = () => {
   return (
-    <section>
-      <h1 className="text-blue-800 font-bold text-xl mt-[15%] text-center">
-        Welcome to Activities page 👋
-      </h1>
+    <section className="px-3">
+      <PageHero pageHeroTitle="Activities & Events" />
     </section>
   );
 };

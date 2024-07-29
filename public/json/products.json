@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "type": "frames",
+            "items": [
+                {
+                    "name": "Mini Frame",
+                    "image" : "/images/products/frames/miniframe.jpg",
+                    "price": "90"
+                },
+                {
+                    "name" : "A3 Frame",
+                    "image" : "/images/products/frames/a3frame.jpg",
+                    "price" : "450"
+                }
+            ]
+        },
+        {
+            "type" : "Gift Hampers",
+            "items" : [
+                {
+                    "name" : "Small Hamper",
+                    "image" : "/images/products/hampers/customizedhamper.jpg",
+                    "price" : "80"
+                },
+                {
+                    "name" : "Medium Hamper",
+                    "image" : "/images/products/hampers/customizedhamper.jpg",
+                    "price" : "100"
+                },
+                {
+                    "name" : "Large Hamper",
+                    "image" : "/images/products/hampers/customizedhamper.jpg",
+                    "price" : "120"
+                }
+            ]
+        }
+    ]
+}

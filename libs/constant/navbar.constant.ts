@@ -1,11 +1,15 @@
-export const navbarLinks = [
-  {
-    label: "Team",
-    route: "/team",
-  },
+type NavbarLink = {
+  label: string;
+  route: string;
+};
+export const navbarLinks : NavbarLink[] = [
   {
     label: "Activities",
     route: "/activities",
+  },
+  {
+    label: "Products",
+    route: "/products"
   },
   {
     label: "IPL3.0",
@@ -22,6 +26,10 @@ export const navbarLinks = [
   {
     label: "TBI",
     route: "/tbi",
+  },
+  {
+    label: "Team",
+    route: "/team",
   },
   {
     label: "Contact Us",

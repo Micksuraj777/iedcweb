@@ -4,9 +4,9 @@ import Image from "next/image";
 import React from "react";
 const Home = () => {
   return (
-    <section className="px-3">
+    <section  >
       {/* Hero section starts */}
-      <div className="my-3 max-w-[1500px] bg-red-50 mx-auto rounded-xl relative h-[70vh] overflow-clip shadow">
+      <div className="my-3 max-w-[1500px] mx-auto rounded-xl relative h-[70vh] overflow-clip shadow">
         <Image
           fill
           className="object-cover object-bottom"

@@ -89,6 +89,7 @@ function SocialMediaItems() {
   return socialMediaHandles.map((item) => (
     <a
       href={item.link}
+      key={item.link}
       target="__blank__"
       className="p-1 border rounded-md hover:border-green-500  "
     >

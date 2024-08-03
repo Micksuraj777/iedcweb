@@ -33,8 +33,8 @@ export default function Carousel() {
         />
         <CarouselCard
           image={{ src: "/winner.jpg", alt: IMAGES.hero_bg.home.alt }}
-          title="Lorem, ipsum dolor"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem expedita quaerat, ad fugiat eius ipsam voluptate, consectetur voluptates vitae error itaque, necessitatibus maiores voluptatem! Quisquam itaque dolorum blanditiis, reiciendis aspernatur eius facilis beatae ipsa, asperiores quam aliquid facere laudantium? Nobis error ipsam quo, explicabo, perspiciatis sint consequuntur officiis a mollitia quod nam repudiandae optio soluta perferendis reprehenderit cumque qui labore eaque. Enim exercitationem dolorum quos dolorem magnam laboriosam dolore possimus, a ad repellat eveniet nam ratione. Repellendus velit vitae repudiandae laudantium eligendi placeat atque adipisci tenetur officia, sed, eius et vel similique, dolor corrupti ullam dolore rem! Architecto, accusamus fuga?"
+          title="Second Prize at Idea Pitching Competition"
+          description="Congratulations to the IEDC team for securing Second Prize at the APJ Abdul Kalam University Idea Pitching Competition 2024, held at the Mascot Hotel in Trivandrum. Out of 300 initial applications, 30 teams were shortlisted, and only six teams received awards. The IEDC team stood out with their exceptional innovation and presentation. The talented team members include Abin Stanislaus (ECE 2023-27), Alfred Anto (ECE 2023-27), Aiswarya E S (CE 2023-27), and Kshithij V R (CE 2023-27). Their achievement reflects their dedication and the high caliber of their work."
         />
         <CarouselCard
           image={{ src: "/hackatly1st.jpeg", alt: IMAGES.hero_bg.home.alt }}

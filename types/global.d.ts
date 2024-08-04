@@ -13,3 +13,14 @@ type CartProduct = {
     image : string;
     quantity: number;
 }
+type EventItems ={
+    image: string;
+    alt: string;
+    title: string;
+    des:string;
+}
+
+type Events = {
+    type: string;
+    items:EventItems[]
+}

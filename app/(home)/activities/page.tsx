@@ -1,6 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 import PageHero from "@/components/shared/PageHero";
+import HeadHero from "@/components/shared/HeadHero";
 import EventCarousel from "@/components/EventCarousel";
 import EventCard from "@/components/activities/EventCard";
 
@@ -27,16 +28,14 @@ export default async function Activities() {
   );
 
   return (
-    <section className="p-3">
+    <section className="px-3">
       <PageHero pageHeroTitle="Activities & Events" />
 
       {/* Event section starts */}
       <div className="max-w-full lg:max-w-[1500px] mx-auto">
         {events.map((category) => (
-          <div key={category.type}>
-            <h1 className="text-green-500 md:text-3xl text-2xl font-semibold mt-6 mb-4">
-              {category.type}
-            </h1>
+          <div className="mt-5" key={category.type}>
+            <HeadHero headTitle={category.type}/>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {category.items.map((item, index) => (
                 <EventCard key={index} item={item} />
@@ -49,9 +48,7 @@ export default async function Activities() {
 
       {/* Carousel section starts */}
       <div className="max-w-[1500px] mx-auto min-h-[70svh] flex flex-col justify-center mt-6">
-        <h2 className="text-2xl font-semibold text-green-500 mb-5 md:text-3xl">
-          Notable Events
-        </h2>
+      <HeadHero headTitle="Notable Events"/>
         <EventCarousel />
       </div>
       {/* Carousel section ends */}

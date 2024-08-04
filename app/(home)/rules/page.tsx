@@ -1,13 +1,14 @@
+import HeadHero from "@/components/shared/HeadHero";
 import PageHero from "@/components/shared/PageHero";
 import React from "react";
 
 const Rules = () => {
   return (
-    <section className="p-3">
+    <section className="px-3">
       {/* Rules section starts */}
       <PageHero pageHeroTitle="Rules & Regulations" />
-      <div className="max-w-4xl mx-auto flex flex-col md:px-8 lg:px-12">
-        <h1 className="text-black text-2xl font-semibold mb-5">RULES AND REGULATION OF IEDC</h1>
+      <div className="max-w-[1500px] mx-auto flex flex-col">
+      <HeadHero headTitle="RULES AND REGULATIONS OF IEDC"/>
         <h2 className="head">GENERAL</h2>
         <p className="para">
         General rules and regulations are applicable for all members and non-members those who are working with IEDC CCE.

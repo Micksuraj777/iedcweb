@@ -4,7 +4,7 @@ import React from "react";
 
 const Nisp = () => {
   return (
-    <section className="p-3">
+    <section className="px-3">
       <PageHero pageHeroTitle="NISP" />
       <div className="max-w-[1500px] mx-auto flex flex-col md:flex-row justify-center items-center gap-8 md:gap-[10%]">
         <div className="text-justify">

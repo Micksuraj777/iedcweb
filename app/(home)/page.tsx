@@ -1,10 +1,11 @@
 import Carousel from "@/components/Carousel";
+import HeadHero from "@/components/shared/HeadHero";
 import { IMAGES, LOGO } from "@/libs/constant/image.constant";
 import Image from "next/image";
 import React from "react";
 const Home = () => {
   return (
-    <section  >
+    <section className="px-3">
       {/* Hero section starts */}
       <div className="my-3 max-w-[1500px] mx-auto rounded-xl relative h-[70vh] overflow-clip shadow">
         <Image
@@ -33,17 +34,13 @@ const Home = () => {
       {/* Hero section ends */}
       {/* Carousel section starts */}
       <div className="max-w-[1500px] mx-auto min-h-[70svh] flex flex-col justify-center">
-        <h2 className="text-2xl font-semibold text-green-500 mb-5 md:text-3xl lg:text-5xl">
-          Our Achievements
-        </h2>
+        <HeadHero headTitle="Achievements"/>
         <Carousel />
       </div>
       {/* Carousel section ends */}
       {/* About Us section starts */}
       <div className="max-w-[1500px] mx-auto  min-h-[70svh] flex flex-col justify-center gap-3 mt-5">
-        <h2 className="text-2xl font-semibold text-green-500 mb-5 md:text-3xl lg:text-5xl">
-          About Us
-        </h2>
+      <HeadHero headTitle="About Us"/>
         <div className="flex gap-5 flex-wrap">
           <div className="flex-1 flex flex-col gap-5 text-justify p-3 min-w-[300px]">
             <p>
@@ -73,9 +70,7 @@ const Home = () => {
       {/* About Us section ends */}
       {/* Our Vision section starts */}
       <div className="max-w-[1500px] mx-auto min-h-[70svh] flex flex-col justify-center gap-3 mt-5">
-        <h2 className="text-2xl font-semibold text-green-500 mb-5 md:text-3xl lg:text-5xl">
-          Our Vision
-        </h2>
+      <HeadHero headTitle="Our Vision"/>
         <div className="flex gap-5 flex-wrap">
           <div className="flex-1 relative  aspect-[4799/3199] min-w-[300px]">
             <Image
